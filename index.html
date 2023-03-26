@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+	body {
+		min-height: 800px;
+	}
+	#pagediv {
+		width: 800px;
+		height: 910px;
+		padding: 20px;
+		background-color: #FFF;
+		position: relative;
+		margin: auto;
+	}
+	.indiv {
+		width: 380px;
+		height: 200px;
+		background-color: skyblue;
+		position: relative;
+		margin: auto;
+		float: left;
+		border-style: dotted;
+	}
+	.indiv img{
+		width:379px;
+		height:200px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+	a:link{
+		 color: red;
+
+	}
+	a:visited {
+		color: green;
+	}
+	
+	#time, footer{
+		float:right;
+	}
+</style>
+<title>Hobby Page - Chess</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<script>
+function tarihSaat() {
+    var date = new Date().toLocaleString('tr-TR');
+    document.getElementById("time").innerHTML = date;
+}
+// her 1 saniyede tarihSaat fonksiyonunu yeniden çalıştır
+setInterval(tarihSaat, 1000); 
+</script> 
+
+</head>
+
+<body style="background:#000">
+
+    <div id="pagediv">
+	<div id="time"></div>
+
+				<h1>Chess</h1>
+				<p>Chess is one of the most successful intelligence and strategy games invented by humanity.
+					The way to play this strategy-based game well is to be a mentally active individual.
+					A suitable environment is created for the development of a mentally active individual's abilities in this context.
+					During the chess game, some cognitive skills such as working memory, fluent intelligence, attention, concentration, spatial positioning, metacognitive skills and the individual's ability to use these processes effectively develop.
+				</p>
+				
+				<p>
+				You can see how to play chess by clicking <a href="https://www.wikihow.com/Play-Chess" target="_blank">HERE</a>.
+				</p>
+				<div class="indiv"><img src="https://www.wikihow.com/images/0/06/Play-Chess-Step-28-Version-5.jpg" alt="No picture found."></div>
+				<div class="indiv"><img src="https://www.wikihow.com/images/thumb/b/bb/Play-Chess-for-Beginners-Step-14-Version-3.jpg/v4-1200px-Play-Chess-for-Beginners-Step-14-Version-3.jpg" alt="No picture found."></div>
+				<div class="indiv"><img src="https://www.wikihow.com/images/thumb/0/0c/Play-Chess-Step-17-Version-5.jpg/v4-460px-Play-Chess-Step-17-Version-5.jpg.webp" alt="No picture found."></div>
+				<div class="indiv"><img src="https://www.wikihow.com/images/thumb/6/6a/Play-Chess-Step-20-Version-4.jpg/v4-460px-Play-Chess-Step-20-Version-4.jpg.webp" alt="No picture found."></div>
+			<hr>
+			<h1>Chess Benefits</h1>	
+			<ul>
+				<li>It brings people together.</li>
+				<li>It teaches you to win and lose.</li>
+				<li>It helps children.</li>
+				<li>It helps you focus.</li>
+				<li>It is an educational tool.</li>
+				<li>It enhances creativity.</li>
+				<li>Increases self-confidence.</li>
+				<li>Develops problem-solving abilities.</li>
+				<li>It activates the brain.</li>
+				<li>It helps you stay calm.</li>
+			</ul>
+			<footer>
+			  <p><b>Author:</b> Faik Ramadan <a href="mailto:faiksamiramadan@gmail.com">faiksamiramadan@gmail.com</a></p>
+			</footer>
+    </div>
+
+</body>
+
+
+
+
+</html>
